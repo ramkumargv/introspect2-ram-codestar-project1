@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>JavaSpringWebApp</title>
+    <title>AWS Codestar - GitHub Integration</title>
     <meta name="description" content="" />
 
     <spring:url value="/resources/gradients.css" var="gradientsCss" />
@@ -29,31 +29,15 @@
         </div>
       </div>
 
-      <header>
-        <nav class="website-nav">
-          <ul>
-            <li><a class="home-link" href="https://aws.amazon.com/">Home</a></li>
-            <li><a href="https://aws.amazon.com/what-is-cloud-computing/">About</a></li>
-            <li><a href="https://aws.amazon.com/solutions/">Services</a></li>
-            <li><a href="https://aws.amazon.com/contact-us/">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
 
       <div class="message">
-          <a class="twitter-link" href="https://twitter.com/home/?status=I%20created%20a%20project%20with%20AWS%20CodeStar!%20%23AWS%20%23AWSCodeStar%20https%3A%2F%2Faws.amazon.com%2Fcodestar">
-              <img src="${tweetSvg}" alt="Tweet"/>
-          </a>
         <div class="text">
-          <h1>Congratulations!</h1>
-          <h2>You just created a Java Spring web application.</h2>
+          <h1>Welcome</h1>
+          <h2>Successfully Integrated AWS Codestar with GitHub along with CodePipeline for a Java Web Application.</h2>
         </div>
       </div>
     </div>
 
-    <footer>
-      <p class="footer-contents">Designed and developed with <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Seattle.</p>
-    </footer>
 
     <script src={$setBackgroundJs}"></script>
   </body>
